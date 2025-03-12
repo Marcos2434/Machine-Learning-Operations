@@ -1,0 +1,15 @@
+[project]
+name = "my_project"  # Name of your project
+version = "0.1.0"  # Version of your project
+description = "A brief description of your project"
+authors = [
+    {name = "Marcos", email = "marcosbauch2434@gmail.com"}
+]
+readme = "README.md"  # Optional
+license = {text = "MIT"}  # Optional
+dependencies = [] # Optional
+
+[project.scripts]
+train = "my_project.train:main"
+greetings = "my_project.greetings:hello"
+greetings = "src.my_project.iris_classifier:app"
